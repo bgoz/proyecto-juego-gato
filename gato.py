@@ -14,6 +14,11 @@ MORADO = (128,0,128)
 AMARILLO = (255,255,0)
 GRIS = (128,128,128)
 
+'''Esta clase se crea con el fin de usar un objeto llamado gato, sus campos
+mas destacables son el col = 0 es debido a la ubicacion de la sabana de sprite
+que se encuentra en la primera columna y dir es la accion del mismo representada
+como un vector, que se encuentra por filas'''
+
 class gato(pygame.sprite.Sprite):
 	def __init__(self,mat_i,pos_ini):
 		pygame.sprite.Sprite.__init__(self)
